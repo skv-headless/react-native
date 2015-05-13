@@ -62,7 +62,7 @@
     "source-map": "0.1.31",
     "stacktrace-parser": "git://github.com/frantic/stacktrace-parser.git#493c5e5638",
     "uglify-js": "~2.4.16",
-    "underscore": "1.7.0",
+    "underscore": "1.8.x",
     "worker-farm": "1.1.0",
     "ws": "0.4.31",
     "yargs": "1.3.2"
