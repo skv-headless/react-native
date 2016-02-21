@@ -60,6 +60,7 @@ var APIS = [
   require('./TimePickerAndroidExample'),
   require('./TimerExample'),
   require('./ToastAndroidExample.android'),
+  require('./VibrationExample'),
   require('./XHRExample'),
 ];
 
