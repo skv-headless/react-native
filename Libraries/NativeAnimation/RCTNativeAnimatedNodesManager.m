@@ -28,6 +28,7 @@
 #import "RCTValueAnimatedNode.h"
 #import "RCTFrameAnimation.h"
 #import "RCTSpringAnimation.h"
+#import "RCTDecayAnimation.h"
 
 @implementation RCTNativeAnimatedNodesManager
 {
@@ -220,7 +221,11 @@
                                                       config:config
                                                      forNode:valueNode
                                                     callBack:callBack];
-
+  } else if ([type isEqual:@"decay"]) {
+      animationDriver = [[RCTDecayAnimation alloc] initWithId:animationId
+                                                        config:config
+                                                       forNode:valueNode
+                                                      callBack:callBack];
   } else {
     RCTLogError(@"Unsupported animation type: %@", config[@"type"]);
     return;

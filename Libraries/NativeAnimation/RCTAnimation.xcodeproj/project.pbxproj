@@ -41,6 +41,7 @@
 		94C129521D40692B0025F25C /* RCTSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C1294F1D4069170025F25C /* RCTSpringAnimation.m */; };
 		94DA09181DC7971C00AEA8C9 /* RCTNativeAnimatedNodesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DA09171DC7971C00AEA8C9 /* RCTNativeAnimatedNodesManager.m */; };
 		94DAE3F91D7334A70059942F /* RCTModuloAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DAE3F81D7334A70059942F /* RCTModuloAnimatedNode.m */; };
+		AA45D7ED1E46143B004AC95D /* RCTDecayAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45D7EC1E46143B004AC95D /* RCTDecayAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,8 @@
 		94DA09171DC7971C00AEA8C9 /* RCTNativeAnimatedNodesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTNativeAnimatedNodesManager.m; sourceTree = "<group>"; };
 		94DAE3F71D7334A70059942F /* RCTModuloAnimatedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RCTModuloAnimatedNode.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		94DAE3F81D7334A70059942F /* RCTModuloAnimatedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTModuloAnimatedNode.m; sourceTree = "<group>"; };
+		AA45D7EC1E46143B004AC95D /* RCTDecayAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTDecayAnimation.m; sourceTree = "<group>"; };
+		AA45D7EE1E46144A004AC95D /* RCTDecayAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTDecayAnimation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -147,6 +150,8 @@
 				94C1294D1D4069170025F25C /* RCTFrameAnimation.m */,
 				94C1294E1D4069170025F25C /* RCTSpringAnimation.h */,
 				94C1294F1D4069170025F25C /* RCTSpringAnimation.m */,
+				AA45D7EC1E46143B004AC95D /* RCTDecayAnimation.m */,
+				AA45D7EE1E46144A004AC95D /* RCTDecayAnimation.h */,
 			);
 			path = Drivers;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				13E501E81D07A6C9005F35D8 /* RCTAdditionAnimatedNode.m in Sources */,
 				5C9894951D999639008027DB /* RCTDivisionAnimatedNode.m in Sources */,
 				13E501EF1D07A6C9005F35D8 /* RCTTransformAnimatedNode.m in Sources */,
+				AA45D7ED1E46143B004AC95D /* RCTDecayAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
